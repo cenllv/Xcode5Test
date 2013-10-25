@@ -21,6 +21,9 @@
 		01217ABA181A51F6001679E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01217A9C181A51F5001679E3 /* UIKit.framework */; };
 		01217AC2181A51F6001679E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01217AC0181A51F6001679E3 /* InfoPlist.strings */; };
 		01217AC4181A51F6001679E3 /* Xcode5TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01217AC3181A51F6001679E3 /* Xcode5TestTests.m */; };
+		01A6E2A5181A5B880073479D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A6E2A4181A5B880073479D /* FirstViewController.m */; };
+		01A6E2A6181A5B880073479D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A6E2A4181A5B880073479D /* FirstViewController.m */; };
+		01A6E2A8181A5BB20073479D /* FirstViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A6E2A7181A5BB20073479D /* FirstViewControllerTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		01217ABF181A51F6001679E3 /* Xcode5TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Xcode5TestTests-Info.plist"; sourceTree = "<group>"; };
 		01217AC1181A51F6001679E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		01217AC3181A51F6001679E3 /* Xcode5TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Xcode5TestTests.m; sourceTree = "<group>"; };
+		01A6E2A3181A5B880073479D /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		01A6E2A4181A5B880073479D /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		01A6E2A7181A5BB20073479D /* FirstViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewControllerTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,8 @@
 				01217AAA181A51F5001679E3 /* Main.storyboard */,
 				01217AAD181A51F5001679E3 /* ViewController.h */,
 				01217AAE181A51F5001679E3 /* ViewController.m */,
+				01A6E2A3181A5B880073479D /* FirstViewController.h */,
+				01A6E2A4181A5B880073479D /* FirstViewController.m */,
 				01217AB0181A51F5001679E3 /* Images.xcassets */,
 				01217A9F181A51F5001679E3 /* Supporting Files */,
 			);
@@ -138,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				01217AC3181A51F6001679E3 /* Xcode5TestTests.m */,
+				01A6E2A7181A5BB20073479D /* FirstViewControllerTest.m */,
 				01217ABE181A51F6001679E3 /* Supporting Files */,
 			);
 			path = Xcode5TestTests;
@@ -252,6 +261,7 @@
 				01217AAF181A51F5001679E3 /* ViewController.m in Sources */,
 				01217AA9181A51F5001679E3 /* AppDelegate.m in Sources */,
 				01217AA5181A51F5001679E3 /* main.m in Sources */,
+				01A6E2A5181A5B880073479D /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				01217AC4181A51F6001679E3 /* Xcode5TestTests.m in Sources */,
+				01A6E2A6181A5B880073479D /* FirstViewController.m in Sources */,
+				01A6E2A8181A5BB20073479D /* FirstViewControllerTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +472,7 @@
 				01217AC9181A51F6001679E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01217ACA181A51F6001679E3 /* Build configuration list for PBXNativeTarget "Xcode5TestTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +481,7 @@
 				01217ACC181A51F6001679E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
